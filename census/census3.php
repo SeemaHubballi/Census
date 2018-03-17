@@ -1,0 +1,31 @@
+<?PHP
+$name=$_REQUEST['name'];
+$dob=$_REQUEST['dob'];
+$gender=$_REQUEST['gender'];
+$fname=$_REQUEST['fname'];
+$mname=$_REQUEST['mname'];
+$ocup=$_REQUEST['ocup'];
+$cno=$_REQUEST['cno'];
+$martial=$_REQUEST['martial'];
+$addr1=$_REQUEST['addr1'];
+$addr2=$_REQUEST['addr2'];
+$spname=$_REQUEST['spname'];
+$cnum=$_REQUEST['cnum'];
+$chname1=$_REQUEST['chname1'];
+$chname2=$_REQUEST['chname2'];
+echo "<h3><u> Census Report </u></h3>";
+echo "Name:$name <br/>";
+echo "DOB:$dob <br/>";
+echo "Gender:$gender <br/>";
+echo "Father's Name:$fname <br/>";
+echo "Mother's Name:$mname <br/>";
+echo "Occupation:$ocup <br/>";
+echo "Contact no:$cno <br/>";
+echo "Martial status:$name <br/>";
+echo "Permanent address:$name <br/>";
+echo "Temporary address:$name <br/>";
+echo "spouse name:$spname <br/>";
+echo "Children:$cnum<br/>";
+echo "Name of boy:$chname1 <br/>";
+echo "Name of girl:$chname2 <br/>";
+?>

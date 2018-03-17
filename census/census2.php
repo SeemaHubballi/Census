@@ -1,0 +1,31 @@
+<?PHP
+$name=$_POST['name'];
+$dob=$_POST['dob'];
+$gender=$_POST['gender'];
+$fname=$_POST['fname'];
+$mname=$_POST['mname'];
+$ocup=$_POST['ocup'];
+$cno=$_POST['cno'];
+$martial=$_POST['martial'];
+$addr1=$_POST['addr1'];
+$addr2=$_POST['addr2'];
+$spname=$_POST['spname'];
+$cnum=$_POST['cnum'];
+$chname1=$_POST['chname1'];
+$chname2=$_POST['chname2'];
+echo "<h3> <u>Census Report</u> </h3>";
+echo "Name:$name <br/>";
+echo "DOB:$dob <br/>";
+echo "Gender:$gender <br/>";
+echo "Father's Name:$fname <br/>";
+echo "Mother's Name:$mname <br/>";
+echo "Occupation:$ocup <br/>";
+echo "Contact no:$cno <br/>";
+echo "Martial status:$name <br/>";
+echo "Permanent address:$name <br/>";
+echo "Temporary address:$name <br/>";
+echo "spouse name:$spname <br/>";
+echo "Children:$cnum<br/>";
+echo "Name of boy:$chname1 <br/>";
+echo "Name of girl:$chname2 <br/>";
+?>

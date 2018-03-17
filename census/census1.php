@@ -1,0 +1,31 @@
+<?PHP
+$name=$_GET['name'];
+$dob=$_GET['dob'];
+$gender=$_GET['gender'];
+$fname=$_GET['fname'];
+$mname=$_GET['mname'];
+$ocup=$_GET['ocup'];
+$cno=$_GET['cno'];
+$martial=$_GET['martial'];
+$addr1=$_GET['addr1'];
+$addr2=$_GET['addr2'];
+$spname=$_GET['spname'];
+$cnum=$_GET['cnum'];
+$chname=$_GET['chname1'];
+$chname2=$_GET['chname2'];
+echo "<h3> <u>Census Report</u> </h3>";
+echo "Name:$name <br/>";
+echo "DOB:$dob <br/>";
+echo "Gender:$gender <br/>";
+echo "Father's Name:$fname <br/>";
+echo "Mother's Name:$mname <br/>";
+echo "Occupation:$ocup <br/>";
+echo "Contact no:$cno <br/>";
+echo "Martial status:$name <br/>";
+echo "Permanent address:$name <br/>";
+echo "Temporary address:$name <br/>";
+echo "spouse name:$spname <br/>";
+echo "No of children:$cnum<br/>";
+echo "Name of boy:$chname1 <br/>";
+echo "Name of girl:$chname2 <br/>";
+?>
